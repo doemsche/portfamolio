@@ -1,0 +1,848 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"projectImage"
+			],
+			[
+				"proje",
+				"projectSurface"
+			],
+			[
+				"Proj",
+				"ProjectView"
+			],
+			[
+				"tit",
+				"titleSurface"
+			],
+			[
+				"title",
+				"titleSurface"
+			],
+			[
+				"proj",
+				"projectModifier"
+			],
+			[
+				"_cr",
+				"_createProjectView"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"_creat",
+				"_createBody"
+			],
+			[
+				"_crea",
+				"_createHeader"
+			],
+			[
+				"la",
+				"layout"
+			],
+			[
+				"layo",
+				"layoutModifier"
+			],
+			[
+				"page",
+				"PageView"
+			],
+			[
+				"na",
+				"namePatt"
+			],
+			[
+				"ga",
+				"games_club"
+			],
+			[
+				"nr",
+				"nr_pos_name"
+			],
+			[
+				"par",
+				"parseTeamInfo"
+			],
+			[
+				"pos",
+				"posPatt"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"accor",
+				"accordion-body"
+			],
+			[
+				"Admin",
+				"AdminInboxController"
+			],
+			[
+				"Route",
+				"RouteController"
+			],
+			[
+				"con",
+				"constructor"
+			],
+			[
+				"ob",
+				"observers"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"MEven",
+				"MEventsListController"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"Ard",
+				"ArduinoString"
+			],
+			[
+				"dis",
+				"displayMsg"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"nick",
+				"nickname"
+			],
+			[
+				"nic",
+				"nickError"
+			],
+			[
+				"mes",
+				"messageBox"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"tex-",
+				"text-decoration"
+			],
+			[
+				"event",
+				"eventDetail"
+			],
+			[
+				"loading",
+				"loadingTemplate"
+			],
+			[
+				"even",
+				"eventsLimit"
+			],
+			[
+				"ex",
+				"existingParticipation"
+			],
+			[
+				"require",
+				"requireAdminPrivileges"
+			],
+			[
+				"mic",
+				"microEventId"
+			],
+			[
+				"load",
+				"loadingTemplate"
+			],
+			[
+				"re",
+				"requireLogin"
+			],
+			[
+				"m",
+				"mCalEvent"
+			],
+			[
+				"layout",
+				"layoutTemplate"
+			],
+			[
+				"TELL",
+				"TELLER_02"
+			],
+			[
+				"TELLER",
+				"TELLER_01"
+			],
+			[
+				"set",
+				"setGoogleAnalytics"
+			],
+			[
+				"post",
+				"postData"
+			],
+			[
+				"po",
+				"postData"
+			],
+			[
+				"write",
+				"writeHead"
+			],
+			[
+				"star",
+				"startTime"
+			],
+			[
+				"boardId",
+				"boardId1"
+			],
+			[
+				"rando",
+				"getRandomInt"
+			],
+			[
+				"num",
+				"numBoards"
+			],
+			[
+				"get",
+				"getRandomInt"
+			],
+			[
+				"att",
+				"attribute"
+			],
+			[
+				"stack",
+				"stack_name"
+			],
+			[
+				"ini",
+				"incidentAttributes"
+			],
+			[
+				"ti",
+				"timeEnd"
+			],
+			[
+				"time",
+				"timeStart"
+			],
+			[
+				"inciden",
+				"incidentAttributes"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/doemsche/Sites/_pf/grunt/aliases.js",
+			"settings":
+			{
+				"buffer_size": 849,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1475,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"handle",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax:c",
+				"Set Syntax: C"
+			],
+			[
+				"syntax",
+				"Set Syntax: Lisp"
+			],
+			[
+				"syntax cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"yam",
+				"Set Syntax: YAML"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"coff",
+				"Coffee: Run Script"
+			],
+			[
+				"coffe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"syn",
+				"Set Syntax: Ruby"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syntax bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syntax rub",
+				"Set Syntax: Ruby"
+			]
+		],
+		"width": 380.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/src/requireConfig.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/src/views/MenuView.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/src/views/LevelSelectionView.js",
+		"/Users/doemsche/Desktop/yllbrckrd.txt",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/content/levels.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/styles/app.css",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/src/views/AboutView.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/src/views/CubeView.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/src/views/demoView.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/src/views/DestroyerCube.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/src/views/FpsMeterView.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/src/views/GameBoard.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/src/views/GameLogic.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/src/views/MainMenuView.js",
+		"/Users/doemsche/Desktop/phonegap-workshop-master/namedconfig.xml",
+		"/Users/doemsche/Desktop/phonegap-workshop-master/css/styles.css",
+		"/Users/doemsche/Desktop/phonegap-workshop-master/js/HomeView.js",
+		"/Users/doemsche/Desktop/phonegap-workshop-master/js/EmployeeView.js",
+		"/Users/doemsche/Desktop/phonegap-workshop-master/index.html",
+		"/Users/doemsche/Desktop/phonegap-workshop-master/js/main.js",
+		"/Users/doemsche/Desktop/phonegap-workshop-master/js/storage/memory-store.js",
+		"/Users/doemsche/Desktop/phonegap-workshop-master/js/storage/websql-store.js",
+		"/Users/doemsche/Desktop/phonegap-workshop-master/js/storage/ls-store.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/Gruntfile.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/package.json",
+		"/Users/doemsche/Sites/Famo.us-Monospace/dist/src/4f231991.polyfills.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/index.html",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/dist/index.html",
+		"/Users/doemsche/Sites/Famo.us-Monospace/README.md",
+		"/Users/doemsche/Sites/Famo.us-Monospace/dist/src/5b58dbb9.main.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/bower.json",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/src/main.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/node_modules/bower/Gruntfile.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/web.config",
+		"/Users/doemsche/Sites/Famo.us-Monospace/grunt/bower.js",
+		"/Users/doemsche/Sites/Famo.us-Monospace/deploy.sh",
+		"/Users/doemsche/Sites/Famo.us-Monospace/app/src/views/SmallCube.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/router.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/node_modules/express/lib/response.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/assets/css/ghost-ui.css",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/built/scripts/ghost.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/helpers/index.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/index.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/server.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/bower.json",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/assets/lib/editor/markdownEditor.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/assets/lib/editor/markerManager.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/assets/lib/editor/index.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/init.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/built/scripts/vendor.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/bootstrap.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/models/base.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/views/editor.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/markdown-actions.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/built/scripts/helpers.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/built/scripts/views.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/config.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/content/themes/froyo/partials/pagination.hbs",
+		"/Users/doemsche/Sites/ghost-0.4.2/content/themes/froyo/partials/site_header.hbs",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/server/views/partials/navbar.hbs",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/tpl/preview.hbs",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/built/scripts/models.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/views/base.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/views/settings.js",
+		"/Users/doemsche/Sites/_test/node_in_action/app.js",
+		"/Users/doemsche/Sites/_test/node_in_action/serialcontrol/app.js",
+		"/Users/doemsche/Sites/_test/node_in_action/http/app.js",
+		"/Users/doemsche/Sites/_test/node_in_action/rest/app.js",
+		"/Users/doemsche/Sites/_test/node_in_action/word_counter/word_count.js",
+		"/Users/doemsche/Sites/_test/node_in_action/word_counter/text/lorem2.txt",
+		"/Users/doemsche/Sites/_test/node_in_action/word_counter/text/lorem1.txt",
+		"/Users/doemsche/.zshrc",
+		"/Users/doemsche/Sites/_test/node_in_action/event2/blog_recent.js",
+		"/Users/doemsche/Sites/_test/node_in_action/event/template.html",
+		"/Users/doemsche/Sites/_test/node_in_action/event/titles.json",
+		"/Users/doemsche/Sites/_test/node_in_action/event/blog_recent.js",
+		"/Users/doemsche/Sites/_test/marked_test/package.json",
+		"/Users/doemsche/Sites/_test/marked_test/app.js",
+		"/Users/doemsche/Sites/_test/marked_test/node_modules/marked/lib/marked.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/index.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/tpl/modals/blank.hbs",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/tpl/modals/uploadImage.hbs",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/tpl/modals/markdown.hbs",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/tpl/settings/general.hbs",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/tpl/settings/sidebar.hbs",
+		"/Users/doemsche/Sites/ghost-0.4.2/npm-debug.log",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/views/blog.js",
+		"/Users/doemsche/Sites/ghost-0.4.2/core/client/tpl/hbs-tpl.js",
+		"/Users/doemsche/Sites/famous-starter-kit/interface-demos/Taasky/src/views/AppView.js",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/pf/src/views/AppView.js",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/pf/src/views/ProjectListView.js",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/pf/src/views/ProjectView.js",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/pf/src/models/Project.js",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-examples/surfaces/ImageSurface/example/src/main.js",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/pf/src/models/defaultProjects.js",
+		"/Users/doemsche/Sites/famous-starter-kit/interface-demos/Taasky/src/views/TaskView.js",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/pf/src/models/App.js",
+		"/Users/doemsche/Sites/famous-starter-kit/interface-demos/Taasky/src/models/App.js",
+		"/Users/doemsche/Sites/famous-starter-kit/interface-demos/Taasky/src/views/TaskListView.js",
+		"/Users/doemsche/Sites/famous-starter-kit/interface-demos/Taasky/src/models/Categories.js",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/pf/src/models/Categories.js",
+		"/Users/doemsche/Sites/famous-starter-kit/interface-demos/Taasky/src/models/Tasks.js",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/pf/src/models/Projects.js",
+		"/Users/doemsche/Sites/famous-starter-kit/interface-demos/Taasky/src/models/Task.js",
+		"/Users/doemsche/Sites/famous-starter-kit/interface-demos/Taasky/src/models/defaultTasks.js",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/pf/src/main.js",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/pf/app.html",
+		"/Users/doemsche/Sites/famous-starter-kit/interface-demos/Taasky/app.html",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/pf/index.html",
+		"/Users/doemsche/Sites/famous-starter-kit/interface-demos/Taasky/index.html",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/portfolio/index.html",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/pf/src/app.html",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/pf/css/device.css",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/pf/css/app.css",
+		"/Users/doemsche/Sites/famous-starter-kit/interface-demos/Taasky/src/main.js",
+		"/Users/doemsche/Sites/famous-starter-kit/interface-demos/Taasky/css/app.css",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/portfolio/src/main.js",
+		"/Users/doemsche/.ssh/known_hosts",
+		"/Users/doemsche/Sites/FamousBubble/lib/smart.require",
+		"/Users/doemsche/Sites/FamousBubble/client/startup/famous.coffee",
+		"/Users/doemsche/Sites/FamousBubble/client/index.jade",
+		"/Users/doemsche/Sites/FamousBubble/client/stylesheets/app.styl",
+		"/Users/doemsche/Sites/FamousBubble/client/index.coffee",
+		"/Users/doemsche/Sites/FamousBubble/client/views/AppView.coffee",
+		"/Users/doemsche/Sites/FamousBubble/client/views/Dragger.coffee",
+		"/Users/doemsche/Sites/FamousBubble/client/views/Bubble.coffee",
+		"/Users/doemsche/Sites/famous-starter-kit/reference-tutorials/portfolio/src/data/ProjectData.js"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/doemsche/Sites/Famo.us-Monospace/app",
+			"/Users/doemsche/Sites/Famo.us-Monospace/app/src/views",
+			"/Users/doemsche/Sites/Famo.us-Monospace",
+			"/Users/doemsche/Sites/Famo.us-Monospace/dist",
+			"/Users/doemsche/Sites/ghost-0.4.2",
+			"/Users/doemsche/Sites/ghost-0.4.2/node_modules",
+			"/Users/doemsche/Sites/ghost-0.4.2/core/client",
+			"/Users/doemsche/Sites/ghost-0.4.2/node_modules",
+			"/Users/doemsche/Sites/ghost-0.4.2",
+			"/Users/doemsche/Sites/blitzpoll-server",
+			"/Users/doemsche/Sites/_test/championsleaguevoter",
+			"/Users/doemsche/Sites/DiscoverMeteorStatic/source/chapters/de",
+			"/Users/doemsche/Sites/mCal",
+			"/Users/doemsche/Sites/mCal/client/views",
+			"/Users/doemsche/Sites/mCal/client",
+			"/Users/doemsche/Sites/mCal/client/views/application",
+			"/Users/doemsche/Sites/mCal/client/stylesheets",
+			"/Users/doemsche/Sites/mCal/client",
+			"/Users/doemsche/Sites/mCal",
+			"/Users/doemsche/Sites/mCal/client",
+			"/Users/doemsche/Sites/mCal",
+			"/Users/doemsche/Sites/mCal/client",
+			"/Users/doemsche/Sites/mCal",
+			"/Users/doemsche/sites/mCal/client",
+			"/Users/doemsche/sites/mCal/client/views",
+			"/Users/doemsche/Sites/mCal/client",
+			"/Users/doemsche/Sites/mCal/client/views",
+			"/Users/doemsche/Sites/mCal/client",
+			"/Users/doemsche/Sites/mCal",
+			"/Users/doemsche/Sites/mCal/client/views",
+			"/Users/doemsche/Sites/FHNW_bu/source",
+			"/Users/doemsche/Sites/FHNW_bu",
+			"/Users/doemsche/Sites/FHNW",
+			"/Users/doemsche/Sites/FHNW_bu",
+			"/Users/doemsche/Sites/FHNW_bu/source",
+			"/Users/doemsche/Sites/FHNW/source",
+			"/Users/doemsche/Sites/FHNW",
+			"/Users/doemsche/Sites/FHNW_bu/source/chapters/de",
+			"/Users/doemsche/Sites/mCal/packages/accounts-ui-bootstrap-3",
+			"/Users/doemsche/Sites/mCal/packages",
+			"/Users/doemsche/Sites/iCreator/client/views",
+			"<project>",
+			"/Users/doemsche/Sites/iCreator/client"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Levels",
+			"'levels'",
+			"demoToMainMenu",
+			"();\n",
+			"server",
+			"Howler",
+			"signalDOMEvent",
+			"up",
+			"debugg",
+			"keyMaps",
+			"mod",
+			"debugg",
+			"mirror",
+			"CodeMirror",
+			"mirror",
+			"');\n",
+			"Editor",
+			"entry-markdown",
+			"floatingheader",
+			"main-menu",
+			"TaskView",
+			"TaskListView",
+			"<!DOCTYPE HTML>\n<html>\n    <head>\n        <title>famo.us App</title>\n        <meta name=\"viewport\" content=\"width=device-width, maximum-scale=1, user-scalable=no\" />\n        <meta name=\"mobile-web-app-capable\" content=\"yes\" />\n        <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n        <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\" />\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/device.css\" />\n    </head>\n    <body>\n        <div class=\"device\">\n            <iframe class=\"iframe\" src=\"app.html\"></iframe>\n        </div>\n    </body>\n</html>\n",
+			"Backbone",
+			"console",
+			"EmptyView",
+			"stripModifiers",
+			"ProjectView",
+			"menu",
+			"image",
+			"AppView",
+			"EmptyView",
+			"setLis",
+			"stripD",
+			"stripDa",
+			"EmptyView",
+			"easeOutBounce",
+			"\n",
+			"AppView",
+			"EmptyView",
+			"console",
+			"nameResult",
+			"room",
+			"?home",
+			"home",
+			"connec",
+			"/db/answer-db",
+			"net",
+			"process.env",
+			"postsList",
+			"immernoch",
+			"erstelen ",
+			"Datenn",
+			"uneres ",
+			"Result",
+			"Enschränkung ",
+			"problematisch",
+			"Zur Ze",
+			"immernoch",
+			"immernoch ",
+			".v",
+			"http",
+			"ownsDocument",
+			"owns_mEvent",
+			"owns",
+			"Allow",
+			"intergriert ",
+			"` ",
+			"  ",
+			"intergriert ",
+			"entstprechend",
+			"Mtehode ",
+			"(),",
+			"+'\">'+",
+			"{{date",
+			"date",
+			"Domiink",
+			"canvas",
+			"myCanvas",
+			"recievedData",
+			"updateDa",
+			"nav",
+			".navbar-default .navbar-brand",
+			"@import \"font-awesome\"",
+			"eventId",
+			"event",
+			"class=\"mE",
+			"mEventsList",
+			"cal-date",
+			"'gui-state-calViewShow'",
+			"date",
+			"cbp-spmenu-horizontal",
+			"calendarView",
+			"session",
+			"Session",
+			"eventsLis",
+			"console",
+			"calendarView",
+			"-110",
+			"cbp-spmenu-open",
+			"addClass",
+			"showB",
+			"show",
+			"showBottom",
+			"calendar",
+			"Dieses Beispiel zeigt uns wie eine lokale Collection ein sicheres Subset einer Datenbank Collection sein kann. Der eingeloggt Benutzer sieht gerade genug Daten seines gesamten Datensets, um eine Aktion auszuführen (in diesem Fall das Einloggen). Wie wir später noch sehen werden, ist dies ein nützliches Muster von dem du noch viel Lernen kannst.\n\nDies heisst allerdings nicht, dass es unmöglich ist mehr Benutzerdaten zu publizieren, sofern du das möchtest. Konsultiere die Meteor docs um zu sehen wie du zusätzliche Felder aus der `Meteor.users` Collection publizieren kannst.",
+			"erstellen um d",
+			"User",
+			"---",
+			"userer ",
+			"hausgeigenes ",
+			"auseindandersetzen ",
+			"or",
+			"gar",
+			"#{current_article.data.year}",
+			"contents",
+			":title",
+			"ENV",
+			"\n",
+			"dominik",
+			":title",
+			"diagram",
+			"figure",
+			"div",
+			"find_and_preserve",
+			"image",
+			"ima",
+			"im"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/doemsche/Sites/_pf/grunt/aliases.js",
+					"settings":
+					{
+						"buffer_size": 849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 139.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				".gitignore"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true
+}
