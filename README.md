@@ -1,7 +1,6 @@
 #portfolio
-> Personal portfolio me.
+> Personal portfolio (expected to be published on meta-vue.ch) using famo.us
 
-[![Build Status](https://travis-ci.org/doemsche/portfolio.svg?branch=master)](https://travis-ci.org/doemsche/portfolio) [![Dependency Status](https://david-dm.org/doemsche/portfolio.svg)](https://david-dm.org/doemsche/portfolio) [![devDependency Status](https://david-dm.org/doemsche/portfolio/dev-status.svg)](https://david-dm.org/doemsche/portfolio#info=devDependencies)
 
 ##Dependencies
 It is actually quite simple really
