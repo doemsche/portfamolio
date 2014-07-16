@@ -8,8 +8,8 @@ define(function(require, exports, module) {
     var Easing          = require('famous/transitions/Easing');
 
     var modifier = new Modifier({
-        align: [0.5, 0.5],
-        origin: [0.5, 0.5]
+        align: [0,0],
+        origin: [0,0]
     });
 
     var mainContext = Engine.createContext();
@@ -20,6 +20,6 @@ define(function(require, exports, module) {
     // instantiates game
     var menuView = new MenuView();
 
-    // mainContext.add(modifier).add(menuView);
+    mainContext.add(modifier).add(menuView);
 
 });

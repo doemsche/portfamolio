@@ -15,3 +15,8 @@ dist
 .tmp
 app/lib
 .yo-rc.json
+
+# Sublime Text Files #
+######################
+portfamolio.sublime-project
+portfamolio.sublime-workspace

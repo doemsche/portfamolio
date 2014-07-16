@@ -1,10 +1,12 @@
 /* This view is for displaying level selection; user will be able to choose levels in this view*/
 define(function(require, exports, module) {
   var View          = require('famous/core/View');
+  var Scrollview     = require("famous/views/Scrollview");
   var Surface       = require('famous/core/Surface');
   var Modifier      = require('famous/core/Modifier');
   var Transform      = require('famous/core/Transform');
   var Projects        = require('../../content/projects');
+
 
 
   function ProjectGrid() {
@@ -13,26 +15,30 @@ define(function(require, exports, module) {
     var rootModifier = new Modifier({
       size: [undefined, undefined]
     });
+
     this.node = this.add(rootModifier); //root modifier
-    this.projectGrid = []; //save reference to each level surface
+    this.projectGrid = []; //save reference to each proj surface
 
     // _loadLocalStorage.call(this);
     // _checkBoxSize.call(this);
     // _createMenu.call(this);
     // _createHeaderBlock.call(this);
     _createProjectBlock.call(this);
-    // _setListeners.call(this);
+    _setListeners.call(this);
     // _setLevelCompletedListener.call(this);
     // _createGithubLink.call(this);
   }
 
   ProjectGrid.DEFAULT_OPTIONS = {
+    fontFamily: 'AvenirNextLTW02-Regular, sans-serif',
     row: 3,
     column: 4,
     boxSize: 75,
     headerFontSize: '3rem',
     lineHeight: '65px',
-    boxFontSize: '1.8rem'
+    boxFontSize: '1.8rem',
+    projectWidth: 316,
+    projectHeight: 100
 
   };
 
@@ -134,58 +140,99 @@ define(function(require, exports, module) {
   // }
   // // create a square for each box with listeners to load the proper level
   function _createProjectBlock(){
-    var index = 0;
-    
+    this.scrollview = new Scrollview({margin:10},{clipSize:800});
+    var index = 1;
+
+    this.scrollview.sequenceFrom(this.projectGrid);
+
     // cycle through each row and column
-    for (var j=0; j<this.options.column; j++){
-      for (var i=0; i < this.options.row; i++){
-        // placement of the square is determined by 
-        var modifier = new Modifier({
-          size: [this.options.boxSize, this.options.boxSize],
-          origin: [(1/(this.options.row+1))*(i+1), (1/(this.options.column+2))*(j+2)],
-          align: [ 0.5, 0.5]
-        });
-        
-        var surface = new Surface({
-          content: 'Projects.projects[index].name',
-          properties: {
-            border: '3px solid #738F99',
-            borderRadius: '7px',
-            textAlign: 'center',
-            lineHeight: this.options.lineHeight,
-            fontFamily: 'HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif',
-            fontSize: this.options.boxFontSize,
-            backgroundColor: '#34A4CC',
-            color: 'white',
-            cursor: 'pointer'
-          }
-        });
+    for(var i = 0; i < Projects.projects.length; i++ ){
+      
+      var modifier = new Modifier({
+         align: [0.4, 0],
+         origin: [0.5, 0.5]
+      });
 
-        this.projectGrid.push(surface);
-        // if local storage for the level is set to 1, use black font
-        // if (this.localStorage && this.localStorage[index-1] === '1') surface.setProperties({color: 'black'});
-        
-        // on set listners on surface and bind with index, which represent the level
-        // surface.on('click', function(index){
-        //   var levelPackage = {level: Levels.levels[index-1], levelNum: index-1};
-        //   this.emit('startGameToL', levelPackage);
-        // }.bind(surface, index));
-        
-        // pipe surface to the view
-        // surface.pipe(this);
+      // modifier.setTransform(
+      //   Transform.translate(0, 0+ i*10, 40),
+      //   { duration : 800, curve: 'easeInOut' }
+      // );
 
-        this.node.add(modifier).add(surface);
-        index ++;
-      }
+      var surface = new Surface({
+        size: [150,100],
+        content: Projects.projects[i].name,
+        properties: {
+          backgroundColor: 'rgba(191, 222, 99, 0.95)',
+          fontFamily: this.options.fontFamily,
+          color: 'white',
+          fontWeight: 'bold',
+          padding: '5px',
+          textShadow: '1px 1px 1px #333',
+          cursor: 'pointer',
+          borderRadius: '5px',
+          boxShadow: '1px 1px 1px #999',
+
+        }
+      });
+      surface.pipe(this.scrollview);
+      this.projectGrid.push(surface);
+      //on set listners on surface and bind with i, which represent the level
+      surface.on('click', function(index){
+        var projectPackage = {project: Projects.projects[index-1], projectId: index};
+        this.emit('detail', projectPackage);
+      }.bind(surface, index));
+
+      surface.pipe(this);
+
+      this.node.add(modifier).add(this.scrollview);
+      index ++;
     }
+    // console.log(this.projectGrid)
+    // for (var j=0; j<this.options.column; j++){
+    //   for (var i=0; i < this.options.row; i++){
+    //     // placement of the square is determined by 
+    //     var modifier = new Modifier({
+    //       size: [this.options.boxSize, this.options.boxSize],
+    //       origin: [(1/(this.options.row+1))*(i+1), (1/(this.options.column+2))*(j+2)],
+    //       align: [ 0.5, 0.5]
+    //     });
+    //     console.log(surface);
+    //     var surface = new Surface({
+    //       content: Projects.projects[index].name,
+    //       properties: {
+    //         border: '3px solid #738F99',
+    //         borderRadius: '7px',
+    //         textAlign: 'center',
+    //         lineHeight: this.options.lineHeight,
+    //         fontFamily: 'HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif',
+    //         fontSize: this.options.boxFontSize,
+    //         backgroundColor: '#34A4CC',
+    //         color: 'white',
+    //         cursor: 'pointer'
+    //       }
+    //     });
+
+    //     this.projectGrid.push(surface);
+    //     // if local storage for the level is set to 1, use black font
+    //     // if (this.localStorage && this.localStorage[index-1] === '1') surface.setProperties({color: 'black'});
+        
+
+        
+    //     // pipe surface to the view
+    //     // surface.pipe(this);
+
+    //     this.node.add(modifier).add(surface);
+    //     index ++;
+    //   }
+    // }
   }
 
   // // listen for start game from level surface and emit event to game logic to start game
-  // function _setListeners(){
-  //   this._eventInput.on('startGameToL', function(data){
-  //     this._eventOutput.emit('startGame', data);
-  //   }.bind(this));
-  // }
+  function _setListeners(){
+    this._eventInput.on('detail', function(data){
+      this._eventOutput.emit('showDetailView', data);
+    }.bind(this));
+  }
 
   // // create back button for level selection view
   // function _createMenu () {
