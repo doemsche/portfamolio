@@ -26,13 +26,13 @@ define(function(require, exports, module) {
 		scrollview.sequenceFrom(surfaces);
 
 		var scrollviewMod = new Modifier({
-			align: [0.25,0],
+			align: [0,0],
 			origin: [0.5,0]
 		});
 
 		for(var i = 0, project, thumbnail; i < projectsLength; i++){
 			project = new Surface({
-				size: [400,250],
+				size: [undefined,250],
 				classes: ['p-thumb'],
 				content: '<img src="'+projectImagePath + (i+1) +'.png" />',
 				properties: {

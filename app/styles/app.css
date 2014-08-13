@@ -601,5 +601,7 @@ small {
   border-radius: 4px;
   text-align: center;
   background-image: url(background.jpg);
+
+   opacity: 1;
   /*margin-bottom:40px;*/
 }
