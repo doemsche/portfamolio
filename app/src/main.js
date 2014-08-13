@@ -4,22 +4,28 @@ define(function(require, exports, module) {
     // import dependencies
     var Engine          = require('famous/core/Engine');
     var Modifier        = require('famous/core/Modifier');
-    var MenuView        = require('views/MenuView');
+    var Surface         = require('famous/core/Surface');
     var Easing          = require('famous/transitions/Easing');
+    var HeaderFooterLayout = require("famous/views/HeaderFooterLayout");
 
-    var modifier = new Modifier({
-        align: [0,0],
-        origin: [0,0]
+    //import views
+    var Header          = require('views/Header');
+    var Footer          = require('views/Footer');
+    var MainView          = require('views/MainView');
+
+    var layout = new HeaderFooterLayout({
+        headerSize: 100,
+        footerSize: 50
     });
 
     var mainContext = Engine.createContext();
-    // default perspective is 1000; 500 for smaller devices
-    var perspective = (window.innerWidth < 600 || window.innerHeight < 600) ? 500 : 1000;
-    mainContext.setPerspective(perspective);
 
-    // instantiates game
-    var menuView = new MenuView();
+    layout.content.add( new MainView() );
 
-    mainContext.add(modifier).add(menuView);
+    layout.header.add( new Header() );
+
+    layout.footer.add( new Footer() );
+
+    mainContext.add(layout);
 
 });
