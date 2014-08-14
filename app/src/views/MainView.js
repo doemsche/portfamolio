@@ -3,6 +3,7 @@ define(function(require, exports, module) {
 	var Surface           = require('famous/core/Surface');
 	var Lightbox       = require('famous/views/Lightbox');
 	var EventHandler = require('famous/core/EventHandler');
+	 var Transform = require('famous/core/Transform');
 
 	var GridView 		= require('views/GridView');
 	var DetailView 		= require('views/DetailView');
@@ -38,6 +39,23 @@ define(function(require, exports, module) {
 
 	function _createLightBox(){
 		this.lightBox = new Lightbox();
+
+		this.lightBox.setOptions({
+			inOrigin: [0.5,0],
+            inTransform: Transform.translate(0,0,1),
+            inOpacity: 1,
+            inTransition: {duration: 700, curve: "linear"},
+
+            outOrigin: [0.5,0],
+            outOpacity: 0.3,
+            outTransform: Transform.identity,
+            outTransition: {duration: 600, curve: "easeOut"},
+
+            showOrigin: [0.5,0.5],
+            showTransform: Transform.identity,
+            showOpacity: 1,
+            overlap: false
+		});
 		this.add(this.lightBox);
 		this.lightBox.show( this.viewMap.grid );
 	}
